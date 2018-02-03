@@ -7,7 +7,9 @@ type this cmds on ur terminal and do not forget to enter in the appropriate file
 Theie is already an existing file which u could run typing on ./tp
 
 bison -d yacc.y 
+
 flex lex.l
+
 gcc -std=c99 -o tp ccalc.c yacc.tab.c lex.yy.c -lm
 
 The code is well commented so it's easy to understand it.
